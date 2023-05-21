@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: url(mao2.jpeg);
+    border-bottom: 1px solid black;
+}
+
+#header h1{
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#header h1:hover{
+    color: white;
+}
+
+body{
+    background-image: url(art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+ nav{
+    list-style: none;
+ }
+
+ nav li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    color: white;
+ }
+
+ nav li a:hover {
+    text-decoration: underline;
+    color: rgb(164, 255, 164);
+    border-radius: 20px;
+ }
+
+ /* body */
+
+ img {
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    left: 7em;
+    bottom: 3em;
+    border: 8px outset ;
+ }
+
+#body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+
+#left{
+    width: 400px;
+    height: 502px;
+    margin-top: 20px;
+}
+
+#right{
+    width: 50%;
+    margin-top: 20px;
+    padding-top: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#right p{
+    font-size: 40px;
+    font-weight: 20px;
+    text-align: center;
+}

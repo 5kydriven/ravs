@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: green;
+    border-bottom: 1px solid blueviolet;
+}
+
+    #header h1{
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    
+    body{
+        background-image: url(./dahon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    li, a{
+        text-decoration: none;
+    }
+    
+    nav{
+        list-style: none;
+    }
+    
+    nav li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    nav li a{
+        transition: all 0.3s ease 0s;
+        font-size: 20px;
+        color: black;
+    }
+    
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: rgb(133, 53, 53);
+        border-radius: 20px;
+    }
+    
+    /* Login Form */
+    
+    #loginForm{
+        margin: 100px 30em;
+        padding: 0 91px;
+        height: 25em;
+    } 
+    
+    
+    p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    input{
+        border-radius: 30px;
+        height: 40px;
+        width: 220px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        background: none;
+        border: 1px solid white;
+    }
+    
+    button{
+        width: 220px;
+        height: 2em;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        background: white;
+        border-radius: 30px;
+        border: 1px solid white;
+    }
+    
+    button:hover{
+        background:  none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #loginForm a{
+        color: black;
+        font-size: 13px;
+    }
+    
+    #loginForm a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    .login{
+        text-align: center;
+    }
+    
+    /* registration form */
+    
+    .register{
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    #registerForm{
+        position: absolute;
+        top: 3%;
+        left: 1%;
+        display: flex;
+        justify-self: center;
+        border: 1px solid white;
+        margin: 100px 30em;
+        padding: 0 91px;
+        height: 25em;
+        border-radius: 20px;
+        background:none;
+        height: 33em;
+    }
+    
+    #registerForm a{
+        color: black;
+    }
+    
+    #registerForm a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    /* admin mode */
+    
+    
+    /* message */
+    .error{
+        padding: 5px;
+        background-color: rgb(247, 181, 181);
+        border-radius: 5px;
+        width: 100%;
+    }
